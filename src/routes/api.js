@@ -3,7 +3,7 @@ import userController from '../controllers/userController';
 import productController from '../controllers/productController';
 import orderController from '../controllers/orderController';
 import paymentController from '../controllers/paymentController';
-import { authPermissionMiddleware, authUserMiddleware } from '../middleware/authMiddleWare';
+import { authPermissionMiddleware, authUserMiddleware } from '../middleware/authMiddleware';
 
 const router = express.Router();
 const initAPIRoutes = (app) => {

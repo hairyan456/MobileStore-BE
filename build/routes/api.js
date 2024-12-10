@@ -9,7 +9,7 @@ var _userController = _interopRequireDefault(require("../controllers/userControl
 var _productController = _interopRequireDefault(require("../controllers/productController"));
 var _orderController = _interopRequireDefault(require("../controllers/orderController"));
 var _paymentController = _interopRequireDefault(require("../controllers/paymentController"));
-var _authMiddleWare = require("../middleware/authMiddleWare");
+var _authMiddleWare = require("../middleware/authMiddleware");
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
 var router = _express["default"].Router();
 var initAPIRoutes = function initAPIRoutes(app) {
