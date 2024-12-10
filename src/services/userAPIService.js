@@ -1,7 +1,7 @@
 require('dotenv').config();
 import bcrypt from 'bcryptjs';
 import User from '../models/UserModel';
-import { generateAccessToken, generateRefreshToken, refreshNewTokenService } from '../utils/JWTHelpers';
+import { generateAccessToken, generateRefreshToken, refreshNewTokenService } from '../utils/jwtHelpers';
 import { Types } from 'mongoose';
 
 const hashUserPassword = (password) => {
